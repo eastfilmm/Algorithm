@@ -29,7 +29,7 @@ def solution(queue1, queue2):
             answer +=1
         else:
             break;
-        if(answer==len(queue1)*4):
+        if(answer==len(queue1)*3):
             answer = -1
             break;
     return answer
