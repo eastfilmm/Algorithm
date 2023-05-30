@@ -10,7 +10,7 @@ def solution(n, k):
     
     list = num.split("0")
     isTrue = 0
-    
+
     for i in list:
         if len(i)==0:
             continue
